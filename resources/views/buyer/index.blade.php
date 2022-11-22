@@ -128,18 +128,20 @@
                 </div>
               </div>
               <!-- user options/icon -->
-              <!-- <li onclick="prof()" style="cursor:pointer;">
+              <li onclick="prof()" style="cursor:pointer;">
               <img style="width: 40px;height: 40px; border: solid 0.5px #000016;border-radius: 50px;float: right;"
-                src="./assest/img/user img.jpg" alt="">
-            </li> -->
+                src="{{asset(auth()->guard('buyer')->user()->avatar)}}" alt="">
+            </li>
               <!-- ------------------------------- -->
               <div class="dropdown border p-1 rounded text-light" id="Counted_Auth"
                 style="display:none;background-color:#a5a4a4;box-shadow:#aaaaaa 0px 0px 20px;">
+
                 <div class="hob" id="dropMenu_2">
 
 
 
                   <div class="d-flex justify-content-between flex-rows w-100">
+
                     <div>
                       <img
                         style="justify-content: start; border-radius: 100%; margin-left: 5px; cursor: pointer;width: 40px;height: 40px;"
@@ -158,7 +160,8 @@
                           transform="translate(15.199 10) rotate(90)" fill="#545F7E"></path>
                       </svg>
                     </div>
-                    <div>
+
+                    </div>
 
 
 
@@ -462,9 +465,9 @@
     <script type="application/javascript" src="../assest/js/rtlVue.js"></script>
 </body>
 
-<script src="../assest/js/nextPage.js"></script>
-<script src="../assest/js/main.js"></script>
-<script src="../assest/js/counter.js"></script>
+<script src="{{asset('../assest/js/nextPage.js')}}"></script>
+<script src="{{asset('../assest/js/main.js')}}"></script>
+<script src="{{asset('../assest/js/counter.js')}}"></script>
 
 
 
