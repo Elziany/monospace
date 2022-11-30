@@ -141,14 +141,22 @@
 
 
 
+<<<<<<< HEAD
          <ul id="dpm_prof" class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+=======
+                <ul id="dpm_prof" class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+>>>>>>> 716a7e2... the last commit
                   <li id="profile">
                     <a class="dropdown-item hide d-flex justify-content-start align-items-center fw-bold" href="#">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-video" viewBox="0 0 16 16">
                         <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
                         <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
                       </svg>
+<<<<<<< HEAD
                       <span style="margin-left:15px">{{__('home.Profile')}}</span>
+=======
+                      <span style="margin-left:15px">Profile</span>
+>>>>>>> 716a7e2... the last commit
                     </a>
                   </li>
 
@@ -161,7 +169,11 @@
                         <path fill-rule="evenodd"
                           d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
                       </svg>
+<<<<<<< HEAD
                       <span style="margin-left:15px">{{__('home.Logout')}}</span>
+=======
+                      <span style="margin-left:15px">Logout</span>
+>>>>>>> 716a7e2... the last commit
                     </a>
 
                   </li>

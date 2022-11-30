@@ -52,7 +52,7 @@ class githubController extends Controller
     }
 
 
-    ##################3buyer user registration############33
+    ##################buyer user registration############33
 
     elseif($user==='buyer')
     {

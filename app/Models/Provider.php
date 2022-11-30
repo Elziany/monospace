@@ -18,4 +18,10 @@ class Provider extends Authenticatable
         'password',
         'avatar'
     ];
+
+    function profile()
+    {
+        return $this->hasOne(Profile::class,'user_id')->where('role',"provider");
+
+    }
 }
